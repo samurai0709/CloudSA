@@ -1,0 +1,19 @@
+gokul@gokul-Latitude-3480:~$ aws configure
+AWS Access Key ID [****************PPVQ]: AKIAI2ZSYHI2PW46DIAA
+AWS Secret Access Key [****************iBte]: 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
+Default region name [us-east-2]: us-east-2
+Default output format [json]: json
+
+
+gokul@MyMachine:~$ aws iam create-user --user-name samurai
+{
+    "User": {
+        "UserName": "samurai", 
+        "Path": "/", 
+        "CreateDate": "2018-02-24T16:40:24.864Z", 
+        "UserId": "AIDAIHUMIFVCFLDITEXF6", 
+        "Arn": "arn:aws:iam::982562802346:user/samurai"
+    }
+}
+
+
